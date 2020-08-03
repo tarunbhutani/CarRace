@@ -18,4 +18,10 @@ public class ButtonOptions : MonoBehaviour
     public void MainMenu() {
         SceneManager.LoadScene(0);
     }
+
+    // Below here are track selection buttons
+
+    public void Track01() {
+        SceneManager.LoadScene(2);
+    }
 }
